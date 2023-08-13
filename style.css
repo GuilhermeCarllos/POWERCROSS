@@ -1,0 +1,387 @@
+.todo{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+hr{
+
+    color: white;
+}
+.maps{
+    width: 100%;
+    flex: 1.45rem;
+    object-fit: cover;
+    height: 340px;
+    padding: 10px;
+}
+.title h1{
+    padding-left: 8px;
+    color: red;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title p{
+    color: white;
+    text-align: justify;
+    padding-right: 20px;
+    padding-left: 16px;
+    background: black;
+    
+    
+}
+
+.maps{
+   background-color: rgb(15, 14, 14);
+   margin-top: 20px;
+ 
+   
+   
+   
+}
+.title button{
+    width: 150px;
+    height: 40px;
+    display: block;
+    margin-right:auto;
+    margin-left: 30px;
+    background: scroll red;
+    border-radius: 8px;
+   margin-bottom: 20px;
+   cursor: pointer;
+}
+.title button:hover{
+    color: #ffffff;
+    background-color: #222;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.planos{
+    text-align: center;
+    color: rgb(253, 252, 252);
+    background: scroll red;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 3px ;
+
+}
+
+.planos p{
+    color: rgb(255, 252, 252);
+    background-color: rgb(15, 14, 14);
+}
+.cardsb{
+    background-color: black;
+    border-style:  dotted;
+    border: 2px solid red;
+    
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: rgb(12, 11, 11);
+
+}
+.cardsb button{
+    background-color: black;
+}
+.cardsb h3 {
+    text-align: center;
+    color: white;
+    background-color: rgb(12, 11, 11);
+    margin-top: 5px;
+    border: 2px solid rgb(36, 33, 33);
+}
+.price {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    
+    text-align: center;
+    margin-bottom: 10px;
+   
+ }
+
+.price small {
+    font-size: 16px;
+    color: #fff8f8;
+    font-weight: normal;
+}
+.cardsb p{
+    
+    text-align: center;
+    color: white;
+}
+.cardsb button{
+  
+    width: 150px;
+    height: 40px;
+    display: block;
+    margin-right:auto;
+    margin-left: auto;
+    background: scroll red;
+    border-radius: 8px;
+   margin-bottom: 10px;
+   cursor: pointer;
+}
+.col-md-4{
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+.sobre h2{
+    text-align: center;
+    color: rgb(253, 252, 252);
+    background: scroll rgb(32, 26, 26);
+   
+    border-radius: 3px ;
+}
+
+.ccc{
+    text-align: center;
+    color: rgb(253, 252, 252);
+    background: scroll  rgb(32, 26, 26);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 3px ;
+    padding-left: 10px;
+    padding-right: 10px;    
+}
+.ccc p{
+    color: rgb(255, 252, 252);
+    background-color: rgb(0, 0, 0);
+    border-bottom: 3px solid rgb(32, 26, 26);
+}
+
+
+.gridctt{
+    min-height: 100vh;
+    background: #222;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: rgb(0, 0, 0);
+    /* width: 500px; */
+    max-width: 800px;
+    border: 3px solid rgb(175, 2, 2);
+   
+}
+section h1{
+    color: rgb(252, 252, 252);
+    
+    margin-top: 5px;
+    border-bottom: 3px solid red;
+}
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+form label{
+    color: rgb(247, 0, 0);
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+form input{
+    padding: 15px;
+    outline: none;
+    border: 3px solid rgb(252, 0, 0);
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+form input:focus{
+    border-radius: 16px;
+}
+ form textarea{
+    padding: 10px;
+    outline: none;
+    border: 3px solid rgb(175, 2, 2);
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+form textarea:focus{
+    border-radius: 16px;
+}
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    background: scroll rgb(247, 0, 0);
+    border-radius: 8px;
+    color: white;
+    transition: all 1s;
+    margin-bottom: 20px;
+
+}
+form button:hover{
+    background: rgb(255, 0, 0);
+    color: black;
+    border-radius: 20px;
+}
+.gridctt{
+    margin-bottom: 20px;
+}
+.col-md-6{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.redes button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 5px;
+    background: transparent;
+    border-radius: 50px;
+    color: rgb(252, 0, 0);
+    transition: all 1s;
+
+   border: transparent;
+
+    
+}
+.redes a{
+    font-size: 20px;
+    color: #fff8f8;
+    text-align: center;
+    font-size: 16px;
+}
+.redes h3{
+    text-align: center;
+    color: #fff8f8;
+    border-bottom: 3px solid red;
+    padding-left: 10px;
+    padding-right: 10px;  
+  
+    
+
+}
+.redes li{
+    padding-left: 15px;
+    list-style: none;
+}
+.redes{
+    background: rgb(15, 11, 11);
+    margin-top: 10px;
+}
+.redes h4{
+    text-align: center;
+    color: #fff8f8;
+    border-bottom: 3px solid red;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.redes h6{
+    color: #fff8f8;
+    padding-left: 18px;
+}
+.redes .cform{
+    color: rgb(80, 85, 88);
+    padding-left: 28px;
+}
+.redes .cformf{
+    color: rgb(80, 85, 88);
+    padding-left: 28px;
+    border-bottom: 3px solid #ff0000;
+    margin-bottom: 5px;
+}
+.pessoa{
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.infor p{
+    color: white;
+    font-size: 25px;
+    border-bottom: 3px solid white;
+}
+.infor a{
+    font-size: 22px;
+    
+    color: white;
+}
+.infor{
+    margin-top: 5px;
+}
+.infor button{
+    background:  scroll transparent;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    align-items: center;
+
+    
+}
+.infor2 h6{
+    display: inline-block; 
+    padding-left: 5px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.fimfim h2{
+    color: white;
+    text-align: center;
+}
+.final a{
+    color: rgb(252, 252, 252);
+    background: red;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 23px;
+    border-radius: 55px;
+    padding: 9px;
+    padding-left: 10px;
+    text-align: center;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+.final a:hover{
+    color: #222;
+}
+.final li{
+    list-style: none;
+    margin-top: 6px;
+}
+.final{
+    margin-top: 16px;
+    padding-left: 20px;
+   
+   
+}
+.final p{
+    color: white;
+    display: inline-flex;
+}
+
+.final h5{
+   padding-left: 80px;
+    color: white;
+    margin-bottom: 10px;
+}
+.meunome h6{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+
